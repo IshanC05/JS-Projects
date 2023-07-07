@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="counter-parent">
+      <h3>Enter a value between 1 & 9</h3>
+      <input
+        id="cnt-input"
+        type="number"
+        min="1"
+        max="9"
+        value="5"
+        placeholder="0"
+      />
+      <div class="start-button">Start button</div>
+    </div>
+    <div class="counter-main">
+      <div class="counter-display">
+        <p class="current"></p>
+        <p class="next"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
