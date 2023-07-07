@@ -20,6 +20,7 @@ function animate() {
         clearInterval(id);
         count = 0;
         current.innerHTML = count;
+        alert("The timer has stopped.");
         return;
     }
     next.innerHTML = ++count;
